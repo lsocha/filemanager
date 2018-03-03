@@ -1,2 +1,2 @@
 # filemanager
-Angular, php filemanager.
+Angular filemanager with php bridge.
