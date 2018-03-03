@@ -1,0 +1,46 @@
+# instalacja dla starszych wersji Linuxa
+sudo apt-get update
+
+sudo apt-get install apache2
+
+sudo apt-get install php
+
+sudo apt-get install mysql-server
+
+# sudo apt-get install libapache2-mod-auth-mysql
+
+sudo apt-get install php-mysql
+
+sudo apt-get install phpmyadmin
+
+sudo /etv/init.d/apache2 restart
+sudo service apache2 restart
+
+local db user: root
+local db password: root
+
+
+# instalacja dla Linux Mint 18
+problem polega na tym że mint 18 ma w repo już php 7 wszystkie polecenia wyglądają więc tak:
+sudo apt-get update
+sudo apt-get install apache2
+sudo apt-get install mysql-server
+sudo apt-get install libapache2-mod-php7.0 php7.0-mysql php7.0-curl php7.0-json
+sudo apt-get install phpmyadmin
+
+Please read this section in Ubuntu wiki. You will need to configure your apache2.conf to make phpMyAdmin works.
+
+gksu gedit /etc/apache2/apache2.conf
+Then add the following line to the end of the file.
+
+Include /etc/phpmyadmin/apache.conf
+Then restart apache
+
+/etc/init.d/apache2 restart
+
+#phpstorm, composer, sublime
+sudo apt-get install sublime-text
+
+apache restart
+sudo service apache2 restart
+

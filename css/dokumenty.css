@@ -1,0 +1,224 @@
+.modal-dialog {
+  z-index: 1041;
+}
+
+.modal-title {
+  z-index: 1041;
+}
+
+@media (min-width: 769px) and (max-width: 1200px) {
+	body {
+		padding-top: 126px;
+	}
+}
+
+.label-primary {
+	background-color: #6b6464;
+}
+
+.label-primary:hover {
+	background-color: #6b6464;
+}
+
+
+/* main.css overwrite */
+.navbar, .nav-sidebar > li > a, .nav-sidebar> li > a:hover, 
+.nav-sidebar> li > a:focus, .iconset .thumbnail.selected,
+.table-files .selected td, .table-files .selected td a,
+.upload-dragover:before, .sortorder:after, .sortorder.reverse:after {
+  color: #6b6464;
+}
+
+.detail-sources {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  word-wrap: break-word;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+  background-color: #6b6464;
+  box-shadow: inset 1px 1px 0 rgba(0, 0, 0, .1), inset -1px -1px 0 rgba(0, 0, 0, .07);
+}
+
+.nav-sidebar > li.active > a {
+  color: #aaa0a0;
+}
+
+.table-files .selected,
+.iconset .thumbnail.selected {
+  background: #aaa0a0 ;
+}
+
+a {
+    color: #6b6464;
+    text-decoration: none;
+}
+
+a:hover, a:focus {
+    color: #aaa0a0;
+    text-decoration: underline;
+}
+
+.ng-scope > .navbar > .container-fluid {
+  background-color: #6b6464;
+}
+
+.btn-primary[disabled] {
+  background-color: #aaa0a0;
+  border-color: #aaa0a0;
+}
+
+.btn-primary:hover {
+  background-color: #aaa0a0;
+  border-color: #aaa0a0;
+}
+
+.item-extension::after, .navbar, iconset .thumbnail.selected,
+.table-files .selected td, .table-files .selected td a, .navbar-inverse .navbar-toggle .icon-bar,
+.breadcrumb>.active, .breadcrumb a,
+.breadcrumb>li+li:before, .selected .item-extension::after, .navbar .btn.btn-flat,
+.breadcrumb>.active,
+.breadcrumb a, .navbar-inverse .navbar-toggle .icon-bar,
+.selected .item-extension::after
+{
+  color: #fff;
+}
+
+.navbar-inverse .navbar-toggle .icon-bar {
+  background: #fff;
+  border-color: #6b6464;
+}
+
+.btn.btn-flat {
+  background: none;
+  color: #fff;
+}
+
+.dropdown-menu>li>a {
+     padding: 3px 20px; 
+}
+
+textarea:focus, textarea.form-control:focus, input.form-control:focus, input[type=text]:focus, input[type=password]:focus, input[type=email]:focus, 
+input[type=number]:focus, [type=text].form-control:focus, [type=password].form-control:focus, [type=email].form-control:focus, 
+[type=tel].form-control:focus, [contenteditable].form-control:focus {
+    -webkit-box-shadow: inset 0 -2px 0 #6b6464;
+    box-shadow: inset 0 -2px 0 #6b6464;
+}
+
+.label-primary[href]:focus, .label-primary[href]:hover {
+    background-color: #aaa0a0;
+}
+
+.btn-primary:focus {
+    background-color: #6b6464;
+}
+
+.mb0 {
+    margin-bottom: 50px;
+}
+
+/* modals -> dialog.css overwrite */
+.modal .modal-header, .btn-primary, .modal .breadcrumb {
+  background-color: #6b6464;
+}
+
+.modal .modal-header .modal-title, .modal .modal-header .close {
+  color: #fff;
+}
+
+/* buttony w navbarze fix */
+.btn.btn-default {
+    margin-top: 8px;
+    margin-bottom: 8px;
+    color: #333;
+    background-color: #fff;
+    border-color: #ccc;
+    display: inline-block;
+    padding: 6px 12px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+/* powiększone logo fix */
+.ssy_logo {
+  height: 30px;
+}
+
+.navbar.navbar-inverse.ng-scope > .container-fluid {
+  max-height: 54px !important;
+}
+
+/* poprawne wyświetlanie miniatur plików obrazów */
+.col-120 {
+	margin-bottom: 45px !important;
+}
+
+/* css for thumbnails tiles */
+.thumbnail {
+	width: 110px !important;
+	height: 140px !important;
+}
+
+.item-icon {
+	/*padding: 30px 0;*/
+    text-align: center;
+    vertical-align: middle;
+}
+
+span.item-text-bottom {
+	position: absolute;
+    bottom: 5px;
+    width: 100%;
+    text-align: center;
+    display: block;
+    /*left: 0;*/
+    line-height: 20px;
+}
+
+a.thumbnail {
+	position: relative;
+}
+
+.item-icon {
+	position: relative;
+	height: 100px;
+    width: 100%;
+    text-align: center;
+    display: block;
+}
+
+.item-icon i {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.iconset .thumbnail .item-icon {
+    font-size: 50px !important;
+}
+
+.item-extension::after {
+    left: 5px !important;
+    top: 39px !important;
+}
+
+img {
+	max-height: 100px;
+}
