@@ -1,16 +1,16 @@
-jest to pakiet angularfilemanager gotowy do wrzucenia na produkcjê
+gotowy pakiet angularfilemanager
 
-1. Wyedytowaæ œcie¿kê do katalogu z plikami w bridges/php-local/index.php oraz w lib/pdf2jpeg.php, src/controllers/main.js basepath.
-2. Folder z plikami musi zawieraæ katalog .pdf-thumbs do przechowywania miniatur podgl¹du plików pdf.
+1. WyedytowaÄ‡ Å›cieÅ¼kÄ™ do katalogu z plikami w bridges/php-local/index.php oraz w lib/pdf2jpeg.php, src/controllers/main.js basepath.
+2. Folder z plikami musi zawieraÄ‡ katalog .pdf-thumbs do przechowywania miniatur podglÄ…du plikÃ³w pdf.
 
-Po edycji src/templates nale¿y odpaliæ komendê gulp build z katalogu plugins/ang-fm.
+Po edycji src/templates naleÅ¼y odpaliÄ‡ komendÄ™ gulp build z katalogu plugins/ang-fm.
 
 New features:
-1. Dodano thumbnails (miniatury) plików obrazów i pdf.
+1. Dodano thumbnails (miniatury) plikÃ³w obrazÃ³w i pdf.
 2. Preview for first page of pdf files.
-2. Poprawka dla wyœwietlania plików "tif".
-3. Wyœwietlanie podgl¹du pierwszej strony pdf.
-4. Dodano ikonkê obrazu dla obrazów w widoku listy.
+2. Poprawka dla wyÅ›wietlania plikÃ³w "tif".
+3. WyÅ›wietlanie podglÄ…du pierwszej strony pdf.
+4. Dodano ikonkÄ™ obrazu dla obrazÃ³w w widoku listy.
 5. In the file preview popup added buttons: 'open in new tab', 'download'.
 6. File list view changed icons -> image, pdf or other document.
 7. Larger icons with more modern layout. 
