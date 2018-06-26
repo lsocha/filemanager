@@ -1,5 +1,6 @@
 # filemanager
-Angular filemanager with php backend bridge.
+Angular filemanager with php backend bridge. Based on: 
+[joni2back/angular-filemanager](https://github.com/joni2back/angular-filemanager)
 
 
 ## Getting Started
